@@ -1,0 +1,49 @@
+[0.226s] Invoking command in '/home/readikole/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake /home/readikole/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/readikole/ros2_ws/install/my_cpp_pkg
+[1.375s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.917s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.473s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[3.177s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.218s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.262s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.809s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.851s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.439s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.788s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.789s] -- Configured cppcheck include dirs: 
+[5.789s] -- Configured cppcheck exclude dirs and/or files: 
+[5.798s] -- Added test 'lint_cmake' to check CMake code style
+[5.801s] -- Added test 'uncrustify' to check C / C++ code style
+[5.801s] -- Configured uncrustify additional arguments: 
+[5.802s] -- Added test 'xmllint' to check XML markup files
+[5.820s] -- Configuring done (4.8s)
+[6.007s] -- Generating done (0.2s)
+[6.015s] -- Build files have been written to: /home/readikole/ros2_ws/build/my_cpp_pkg
+[6.056s] Invoked command in '/home/readikole/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake /home/readikole/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/readikole/ros2_ws/install/my_cpp_pkg
+[6.060s] Invoking command in '/home/readikole/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[6.248s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[13.147s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[13.478s] [100%] Built target cpp_node
+[13.488s] Invoked command in '/home/readikole/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[13.617s] Invoking command in '/home/readikole/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --install /home/readikole/ros2_ws/build/my_cpp_pkg
+[13.669s] -- Install configuration: ""
+[13.670s] -- Execute custom install script
+[13.670s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[13.670s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[13.671s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[13.671s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[13.671s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[13.672s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[13.672s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[13.672s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[13.672s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[13.673s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[13.673s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[13.673s] -- Symlinking: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[13.676s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[13.677s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[13.677s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[13.677s] -- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[13.684s] Invoked command in '/home/readikole/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --install /home/readikole/ros2_ws/build/my_cpp_pkg

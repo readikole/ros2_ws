@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000823] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001040] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.022077] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.023258] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.024840] (my_cpp_pkg) Command: {'cmd': ['/home/readikole/.local/bin/cmake', '--build', '/home/readikole/ros2_ws/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/readikole/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'readikole'), ('GIO_MODULE_DIR', '/home/readikole/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/133/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/readikole'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/readikole'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/133/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/readikole/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/133/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/133/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2028'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/readikole/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'readikole'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'readikole'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/readikole/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/readikole:@/tmp/.ICE-unix/2005,unix/readikole:/tmp/.ICE-unix/2005'), ('GTK_EXE_PREFIX', '/snap/code/133/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/05aaba4f_6cd6_4348_917f_4c5b79f5fbad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/133/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.SSTM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-d97025a7a3.sock'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/readikole/snap/code/133/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/readikole/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/readikole/snap/code/133/.local/share:/home/readikole/snap/code/133:/snap/code/133/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099576] (-) TimerEvent: {}
+[0.127979] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.199701] (-) TimerEvent: {}
+[0.300126] (-) TimerEvent: {}
+[0.400544] (-) TimerEvent: {}
+[0.500888] (-) TimerEvent: {}
+[0.601254] (-) TimerEvent: {}
+[0.701612] (-) TimerEvent: {}
+[0.801982] (-) TimerEvent: {}
+[0.902394] (-) TimerEvent: {}
+[1.002734] (-) TimerEvent: {}
+[1.103075] (-) TimerEvent: {}
+[1.203394] (-) TimerEvent: {}
+[1.303754] (-) TimerEvent: {}
+[1.404100] (-) TimerEvent: {}
+[1.504410] (-) TimerEvent: {}
+[1.604761] (-) TimerEvent: {}
+[1.705106] (-) TimerEvent: {}
+[1.805450] (-) TimerEvent: {}
+[1.905803] (-) TimerEvent: {}
+[2.006145] (-) TimerEvent: {}
+[2.106516] (-) TimerEvent: {}
+[2.206867] (-) TimerEvent: {}
+[2.307207] (-) TimerEvent: {}
+[2.407549] (-) TimerEvent: {}
+[2.507890] (-) TimerEvent: {}
+[2.608252] (-) TimerEvent: {}
+[2.708629] (-) TimerEvent: {}
+[2.808994] (-) TimerEvent: {}
+[2.909332] (-) TimerEvent: {}
+[3.009665] (-) TimerEvent: {}
+[3.110004] (-) TimerEvent: {}
+[3.210344] (-) TimerEvent: {}
+[3.310683] (-) TimerEvent: {}
+[3.411019] (-) TimerEvent: {}
+[3.511366] (-) TimerEvent: {}
+[3.611766] (-) TimerEvent: {}
+[3.613032] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99 takes only zero or two arguments [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain\x07-Wmain\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.613301] (my_cpp_pkg) StderrLine: {'line': b'    3 | int \x1b[01;35m\x1b[Kmain\x1b[m\x1b[K(int argc)\n'}
+[3.613478] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.616517] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.616785] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:5:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.616963] (my_cpp_pkg) StderrLine: {'line': b'    5 |     rclcpp::init(\x1b[01;31m\x1b[Karg\x1b[m\x1b[K, argv);\n'}
+[3.617141] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.617318] (my_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Kargc\x1b[m\x1b[K\n'}
+[3.619207] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:5:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.619413] (my_cpp_pkg) StderrLine: {'line': b'    5 |     rclcpp::init(arg, \x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[3.619602] (my_cpp_pkg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.619787] (my_cpp_pkg) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kargc\x1b[m\x1b[K\n'}
+[3.620315] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.620525] (my_cpp_pkg) StderrLine: {'line': b'    6 |     auto node = std\x1b[01;31m\x1b[K:\x1b[m\x1b[K;make_shared<rclcpp::Node>("cpp_test");\n'}
+[3.620708] (my_cpp_pkg) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.620883] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::make_shared\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.621060] (my_cpp_pkg) StderrLine: {'line': b'    6 |     auto node = std:;\x1b[01;31m\x1b[Kmake_shared\x1b[m\x1b[K<rclcpp::Node>("cpp_test");\n'}
+[3.621251] (my_cpp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.621634] (my_cpp_pkg) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kstd::make_shared\x1b[m\x1b[K\n'}
+[3.621833] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.622035] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.622222] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.622414] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::make_shared\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.622610] (my_cpp_pkg) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.622799] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.622988] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.623184] (my_cpp_pkg) StderrLine: {'line': b'    6 |     auto node = std:;make_shared<rclcpp::Node\x1b[01;31m\x1b[K>\x1b[m\x1b[K("cpp_test");\n'}
+[3.623375] (my_cpp_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.623581] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.623773] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.623968] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.624161] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.624367] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.624566] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.624756] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.624951] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.625152] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.625344] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.625534] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.625728] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.625923] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.626113] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.626314] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.626519] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.626710] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.626900] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.627088] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.627281] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.627474] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.627671] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.627864] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.628065] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.628258] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.628465] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.628662] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.628855] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.629047] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.629241] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.629435] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.629632] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.629825] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.630019] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.630211] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.630406] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.630601] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.630794] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.630990] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.631188] (my_cpp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(0, "Hello Cpp Node"));\n'}
+[3.631383] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.631576] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.631771] (my_cpp_pkg) StderrLine: {'line': b'    3 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K)\n'}
+[3.631961] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[3.711901] (-) TimerEvent: {}
+[3.812234] (-) TimerEvent: {}
+[3.912579] (-) TimerEvent: {}
+[4.012910] (-) TimerEvent: {}
+[4.113247] (-) TimerEvent: {}
+[4.213586] (-) TimerEvent: {}
+[4.278895] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[4.279236] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[4.279460] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.284834] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[4.313687] (-) TimerEvent: {}
+[4.382590] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[4.393337] (-) EventReactorShutdown: {}

@@ -1,0 +1,78 @@
+[0.020s] Invoking command in '/home/readikole/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.216s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint main(int)[m[K’ takes only zero or two arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain-Wmain]8;;[m[K]
+[3.216s]     3 | int [01;35m[Kmain[m[K(int argc)
+[3.216s]       |     [01;35m[K^~~~[m[K
+[3.219s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int)[m[K’:
+[3.219s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:5:18:[m[K [01;31m[Kerror: [m[K‘[01m[Karg[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[3.220s]     5 |     rclcpp::init([01;31m[Karg[m[K, argv);
+[3.220s]       |                  [01;31m[K^~~[m[K
+[3.220s]       |                  [32m[Kargc[m[K
+[3.222s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:5:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[3.222s]     5 |     rclcpp::init(arg, [01;31m[Kargv[m[K);
+[3.222s]       |                       [01;31m[K^~~~[m[K
+[3.223s]       |                       [32m[Kargc[m[K
+[3.223s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.223s]     6 |     auto node = std[01;31m[K:[m[K;make_shared<rclcpp::Node>("cpp_test");
+[3.223s]       |                    [01;31m[K^[m[K
+[3.223s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::make_shared[m[K’?
+[3.223s]     6 |     auto node = std:;[01;31m[Kmake_shared[m[K<rclcpp::Node>("cpp_test");
+[3.223s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[3.223s]       |                      [32m[Kstd::make_shared[m[K
+[3.224s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.224s]                  from [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[3.224s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ declared here
+[3.224s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.224s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.224s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.224s]     6 |     auto node = std:;make_shared<rclcpp::Node[01;31m[K>[m[K("cpp_test");
+[3.224s]       |                                              [01;31m[K^[m[K
+[3.225s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.226s]                  from [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[3.226s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.226s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.226s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.226s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.226s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.226s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.226s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.227s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.227s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.227s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.227s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.227s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.227s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.227s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.227s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.227s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.229s]                  from [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[3.229s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.229s]     7 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(0, "Hello Cpp Node"));
+[3.229s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.229s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.229s]     3 | int main([01;35m[Kint argc[m[K)
+[3.229s]       |          [01;35m[K~~~~^~~~[m[K
+[3.822s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[3.822s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[3.822s] gmake: *** [Makefile:146: all] Error 2
+[3.828s] Invoked command in '/home/readikole/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12
