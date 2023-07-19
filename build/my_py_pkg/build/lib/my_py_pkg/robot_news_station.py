@@ -12,7 +12,7 @@ class RobotNewsStationNode(Node): # MODIFY NAME
         
     def publish_news(self):
         msg=String()
-        msg.data = "Hello"
+        msg.data = "Hi, this is C3PO from the robot news station"
         self.publisher_.publish(msg)
      
 def main(args=None):

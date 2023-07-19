@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/readikole/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.098s] [ 50%] Built target cpp_node
+[0.109s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[3.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.296s]                  from [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:1[m[K:
+[3.296s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[3.296s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:11:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[3.296s]    11 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Robot News Station has been started.");
+[3.296s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.297s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid RobotNewsStationNode::publishNews()[m[K’:
+[3.297s] [01m[K/home/readikole/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublisher_[m[K’
+[3.297s]    19 |         [01;31m[Kpublisher_[m[K->publish(msg)
+[3.297s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.268s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[4.269s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+[4.269s] gmake: *** [Makefile:146: all] Error 2
+[4.277s] Invoked command in '/home/readikole/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_cpp_pkg -- -j12 -l12

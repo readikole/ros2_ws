@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000679] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000734] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.026140] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.027243] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.028605] (my_cpp_pkg) Command: {'cmd': ['/home/readikole/.local/bin/cmake', '--build', '/home/readikole/ros2_ws/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/readikole/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'readikole'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/readikole'), ('OLDPWD', '/home/readikole/ros2_ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '31840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/readikole/ros2_ws/src/install:/home/readikole/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'readikole'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'readikole'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/readikole/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/readikole:@/tmp/.ICE-unix/1938,unix/readikole:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/548d65a9_c142_425a_b215_c55cf259b6dd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.GYQJ81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.374'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_py_pkg:/home/readikole/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/readikole/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.092426] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099700] (-) TimerEvent: {}
+[0.199982] (-) TimerEvent: {}
+[0.226005] (my_cpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.240920] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.294503] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.299355] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300054] (-) TimerEvent: {}
+[0.313649] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.346947] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.378043] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400183] (-) TimerEvent: {}
+[0.479318] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.481236] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500270] (-) TimerEvent: {}
+[0.600594] (-) TimerEvent: {}
+[0.693865] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700675] (-) TimerEvent: {}
+[0.801018] (-) TimerEvent: {}
+[0.901406] (-) TimerEvent: {}
+[0.967876] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.001518] (-) TimerEvent: {}
+[1.101893] (-) TimerEvent: {}
+[1.202279] (-) TimerEvent: {}
+[1.202599] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.298316] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.298638] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.298801] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.299578] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.301139] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.301361] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.301783] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.302339] (-) TimerEvent: {}
+[1.303497] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.328761] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.332290] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/readikole/ros2_ws/build/my_cpp_pkg\n'}
+[1.359667] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[1.376630] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target robot_news_station\n'}
+[1.376962] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target cpp_node\n'}
+[1.402471] (-) TimerEvent: {}
+[1.502954] (-) TimerEvent: {}
+[1.603374] (-) TimerEvent: {}
+[1.703727] (-) TimerEvent: {}
+[1.804065] (-) TimerEvent: {}
+[1.904399] (-) TimerEvent: {}
+[2.004760] (-) TimerEvent: {}
+[2.105130] (-) TimerEvent: {}
+[2.205499] (-) TimerEvent: {}
+[2.305862] (-) TimerEvent: {}
+[2.406211] (-) TimerEvent: {}
+[2.506562] (-) TimerEvent: {}
+[2.606868] (-) TimerEvent: {}
+[2.707226] (-) TimerEvent: {}
+[2.807585] (-) TimerEvent: {}
+[2.907892] (-) TimerEvent: {}
+[3.008206] (-) TimerEvent: {}
+[3.108566] (-) TimerEvent: {}
+[3.208915] (-) TimerEvent: {}
+[3.309300] (-) TimerEvent: {}
+[3.409646] (-) TimerEvent: {}
+[3.509944] (-) TimerEvent: {}
+[3.610333] (-) TimerEvent: {}
+[3.710735] (-) TimerEvent: {}
+[3.811135] (-) TimerEvent: {}
+[3.911457] (-) TimerEvent: {}
+[4.011803] (-) TimerEvent: {}
+[4.112159] (-) TimerEvent: {}
+[4.212482] (-) TimerEvent: {}
+[4.312843] (-) TimerEvent: {}
+[4.414751] (-) TimerEvent: {}
+[4.515113] (-) TimerEvent: {}
+[4.615452] (-) TimerEvent: {}
+[4.715805] (-) TimerEvent: {}
+[4.816147] (-) TimerEvent: {}
+[4.916494] (-) TimerEvent: {}
+[5.016825] (-) TimerEvent: {}
+[5.117159] (-) TimerEvent: {}
+[5.217504] (-) TimerEvent: {}
+[5.317868] (-) TimerEvent: {}
+[5.418203] (-) TimerEvent: {}
+[5.518547] (-) TimerEvent: {}
+[5.618879] (-) TimerEvent: {}
+[5.719284] (-) TimerEvent: {}
+[5.819694] (-) TimerEvent: {}
+[5.920097] (-) TimerEvent: {}
+[6.020493] (-) TimerEvent: {}
+[6.120837] (-) TimerEvent: {}
+[6.221195] (-) TimerEvent: {}
+[6.321545] (-) TimerEvent: {}
+[6.421897] (-) TimerEvent: {}
+[6.522272] (-) TimerEvent: {}
+[6.622631] (-) TimerEvent: {}
+[6.723006] (-) TimerEvent: {}
+[6.823338] (-) TimerEvent: {}
+[6.923708] (-) TimerEvent: {}
+[7.024083] (-) TimerEvent: {}
+[7.124464] (-) TimerEvent: {}
+[7.224832] (-) TimerEvent: {}
+[7.325165] (-) TimerEvent: {}
+[7.425542] (-) TimerEvent: {}
+[7.525897] (-) TimerEvent: {}
+[7.626226] (-) TimerEvent: {}
+[7.726576] (-) TimerEvent: {}
+[7.826925] (-) TimerEvent: {}
+[7.927281] (-) TimerEvent: {}
+[8.027630] (-) TimerEvent: {}
+[8.128008] (-) TimerEvent: {}
+[8.228365] (-) TimerEvent: {}
+[8.328749] (-) TimerEvent: {}
+[8.429101] (-) TimerEvent: {}
+[8.529466] (-) TimerEvent: {}
+[8.629842] (-) TimerEvent: {}
+[8.730193] (-) TimerEvent: {}
+[8.830557] (-) TimerEvent: {}
+[8.930864] (-) TimerEvent: {}
+[9.031216] (-) TimerEvent: {}
+[9.131541] (-) TimerEvent: {}
+[9.231869] (-) TimerEvent: {}
+[9.332202] (-) TimerEvent: {}
+[9.432536] (-) TimerEvent: {}
+[9.532874] (-) TimerEvent: {}
+[9.633235] (-) TimerEvent: {}
+[9.733567] (-) TimerEvent: {}
+[9.833912] (-) TimerEvent: {}
+[9.934244] (-) TimerEvent: {}
+[10.034583] (-) TimerEvent: {}
+[10.134939] (-) TimerEvent: {}
+[10.235292] (-) TimerEvent: {}
+[10.335632] (-) TimerEvent: {}
+[10.436007] (-) TimerEvent: {}
+[10.536364] (-) TimerEvent: {}
+[10.636726] (-) TimerEvent: {}
+[10.737058] (-) TimerEvent: {}
+[10.837389] (-) TimerEvent: {}
+[10.937730] (-) TimerEvent: {}
+[11.038080] (-) TimerEvent: {}
+[11.138428] (-) TimerEvent: {}
+[11.238778] (-) TimerEvent: {}
+[11.339136] (-) TimerEvent: {}
+[11.439501] (-) TimerEvent: {}
+[11.539855] (-) TimerEvent: {}
+[11.640188] (-) TimerEvent: {}
+[11.740521] (-) TimerEvent: {}
+[11.840858] (-) TimerEvent: {}
+[11.941223] (-) TimerEvent: {}
+[12.041561] (-) TimerEvent: {}
+[12.141890] (-) TimerEvent: {}
+[12.242261] (-) TimerEvent: {}
+[12.342648] (-) TimerEvent: {}
+[12.443030] (-) TimerEvent: {}
+[12.543386] (-) TimerEvent: {}
+[12.643752] (-) TimerEvent: {}
+[12.733635] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[12.743827] (-) TimerEvent: {}
+[12.844128] (-) TimerEvent: {}
+[12.944482] (-) TimerEvent: {}
+[13.044847] (-) TimerEvent: {}
+[13.145210] (-) TimerEvent: {}
+[13.241868] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[13.245294] (-) TimerEvent: {}
+[13.251552] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[13.319042] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[13.345402] (-) TimerEvent: {}
+[13.357948] (my_cpp_pkg) Command: {'cmd': ['/home/readikole/.local/bin/cmake', '--install', '/home/readikole/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/readikole/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'readikole'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/readikole'), ('OLDPWD', '/home/readikole/ros2_ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '31840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/readikole/ros2_ws/src/install:/home/readikole/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'readikole'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'readikole'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/readikole/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/readikole:@/tmp/.ICE-unix/1938,unix/readikole:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/548d65a9_c142_425a_b215_c55cf259b6dd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.GYQJ81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.374'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_py_pkg:/home/readikole/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/readikole/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/readikole/ros2_ws/src/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_cpp_pkg:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[13.395380] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.396073] (my_cpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.396498] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[13.396763] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[13.396991] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/readikole/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[13.399876] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[13.400236] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[13.400600] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[13.400983] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[13.401344] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[13.401716] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[13.402073] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[13.402436] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[13.402809] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[13.403167] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[13.403444] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[13.406809] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[13.407159] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[13.407420] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[13.407807] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/readikole/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[13.414068] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[13.445486] (-) TimerEvent: {}
+[13.543492] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[13.544435] (-) EventReactorShutdown: {}
