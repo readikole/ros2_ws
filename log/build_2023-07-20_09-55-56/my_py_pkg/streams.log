@@ -1,0 +1,47 @@
+[1.194s] Invoking command in '/home/readikole/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/readikole/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.738s] running develop
+[1.738s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.738s] !!
+[1.738s] 
+[1.738s]         ********************************************************************************
+[1.738s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.739s]         Instead, use pypa/build, pypa/installer or other
+[1.739s]         standards-based tools.
+[1.739s] 
+[1.739s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.739s]         ********************************************************************************
+[1.739s] 
+[1.740s] !!
+[1.740s]   easy_install.initialize_options(self)
+[1.798s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.798s] !!
+[1.799s] 
+[1.799s]         ********************************************************************************
+[1.799s]         Please avoid running ``setup.py`` directly.
+[1.799s]         Instead, use pypa/build, pypa/installer or other
+[1.799s]         standards-based tools.
+[1.799s] 
+[1.799s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.800s]         ********************************************************************************
+[1.800s] 
+[1.800s] !!
+[1.800s]   self.initialize_options()
+[2.154s] running egg_info
+[2.180s] writing my_py_pkg.egg-info/PKG-INFO
+[2.180s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.180s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.181s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.181s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.242s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.244s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.274s] running build_ext
+[2.274s] Creating /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.275s] Installing number_counter script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.275s] Installing number_publisher script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.276s] Installing py_node script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.276s] Installing robot_news_station script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.276s] Installing smartphone script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.276s] 
+[2.277s] Installed /home/readikole/ros2_ws/build/my_py_pkg
+[2.277s] running install_data
+[2.316s] Invoked command in '/home/readikole/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/readikole/ros2_ws/build/my_py_pkg/build --no-deps install_data
