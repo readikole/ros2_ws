@@ -1,0 +1,137 @@
+[1.602s] Invoking command in '/home/readikole/ros2_ws/build/my_py_pkg': AMENT_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/readikole/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/readikole/ros2_ws/build/my_py_pkg/build
+[1.764s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.765s] !!
+[1.765s] 
+[1.765s]         ********************************************************************************
+[1.765s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.765s]         versions. Please use the underscore name 'script_dir' instead.
+[1.765s] 
+[1.765s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.765s]         or your builds will no longer be supported.
+[1.765s] 
+[1.765s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.766s]         ********************************************************************************
+[1.766s] 
+[1.766s] !!
+[1.766s]   opt = self.warn_dash_deprecation(opt, section)
+[2.080s] running develop
+[2.092s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.092s] !!
+[2.092s] 
+[2.092s]         ********************************************************************************
+[2.093s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.093s]         Instead, use pypa/build, pypa/installer or other
+[2.093s]         standards-based tools.
+[2.093s] 
+[2.093s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.093s]         ********************************************************************************
+[2.093s] 
+[2.093s] !!
+[2.093s]   easy_install.initialize_options(self)
+[2.154s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.154s] !!
+[2.154s] 
+[2.154s]         ********************************************************************************
+[2.154s]         Please avoid running ``setup.py`` directly.
+[2.154s]         Instead, use pypa/build, pypa/installer or other
+[2.154s]         standards-based tools.
+[2.154s] 
+[2.155s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.155s]         ********************************************************************************
+[2.155s] 
+[2.155s] !!
+[2.155s]   self.initialize_options()
+[2.486s] Removing /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.514s] Invoked command in '/home/readikole/ros2_ws/build/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/readikole/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/readikole/ros2_ws/build/my_py_pkg/build
+[2.518s] Invoking command in '/home/readikole/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/readikole/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/readikole/ros2_ws/build/my_py_pkg/build install --record /home/readikole/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[2.676s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.676s] !!
+[2.677s] 
+[2.677s]         ********************************************************************************
+[2.677s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.677s]         versions. Please use the underscore name 'script_dir' instead.
+[2.677s] 
+[2.677s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[2.677s]         or your builds will no longer be supported.
+[2.677s] 
+[2.677s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.677s]         ********************************************************************************
+[2.678s] 
+[2.678s] !!
+[2.678s]   opt = self.warn_dash_deprecation(opt, section)
+[2.833s] running egg_info
+[2.858s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.858s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.858s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.859s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.859s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.910s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.912s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.912s] running build
+[2.912s] running build_py
+[2.913s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.913s] copying my_py_pkg/battery.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.913s] copying my_py_pkg/hw_status_publisher.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.914s] copying my_py_pkg/add_two_ints_client.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.914s] copying my_py_pkg/led_panel.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.914s] copying my_py_pkg/add_two_ints_server.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.914s] copying my_py_pkg/number_counter.py -> /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.915s] running install
+[2.918s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.919s] !!
+[2.919s] 
+[2.919s]         ********************************************************************************
+[2.919s]         Please avoid running ``setup.py`` directly.
+[2.919s]         Instead, use pypa/build, pypa/installer or other
+[2.919s]         standards-based tools.
+[2.919s] 
+[2.919s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.919s]         ********************************************************************************
+[2.920s] 
+[2.920s] !!
+[2.920s]   self.initialize_options()
+[2.922s] running install_lib
+[2.947s] creating /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.947s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.948s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.948s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.954s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.969s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.979s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.980s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.980s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.980s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.981s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.981s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.981s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.981s] copying /home/readikole/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.982s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.983s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery.py to battery.cpython-310.pyc
+[2.983s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.984s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.984s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.985s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[2.985s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.985s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[2.986s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[2.986s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.987s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-310.pyc
+[2.987s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.988s] byte-compiling /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[2.988s] running install_data
+[3.014s] running install_egg_info
+[3.040s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.056s] running install_scripts
+[3.340s] Installing add_two_ints_client script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.341s] Installing add_two_ints_client_no_oop script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.341s] Installing add_two_ints_server script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.341s] Installing battery script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.341s] Installing hw_status_publisher script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing led_panel script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing number_counter script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing number_publisher script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing py_node script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing robot_news_station script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.342s] Installing smartphone script to /home/readikole/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.343s] writing list of installed files to '/home/readikole/ros2_ws/build/my_py_pkg/install.log'
+[3.373s] Invoked command in '/home/readikole/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/readikole/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/readikole/ros2_ws/build/my_py_pkg/prefix_override:/home/readikole/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/readikole/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/readikole/ros2_ws/build/my_py_pkg/build install --record /home/readikole/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
