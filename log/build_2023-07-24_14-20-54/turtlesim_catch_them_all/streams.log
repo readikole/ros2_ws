@@ -1,0 +1,43 @@
+[1.110s] Invoking command in '/home/readikole/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/readikole/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/readikole/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/readikole/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[1.626s] running develop
+[1.626s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.627s] !!
+[1.627s] 
+[1.627s]         ********************************************************************************
+[1.627s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.627s]         Instead, use pypa/build, pypa/installer or other
+[1.627s]         standards-based tools.
+[1.627s] 
+[1.628s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.628s]         ********************************************************************************
+[1.628s] 
+[1.628s] !!
+[1.628s]   easy_install.initialize_options(self)
+[1.679s] /home/readikole/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.680s] !!
+[1.680s] 
+[1.680s]         ********************************************************************************
+[1.680s]         Please avoid running ``setup.py`` directly.
+[1.680s]         Instead, use pypa/build, pypa/installer or other
+[1.680s]         standards-based tools.
+[1.681s] 
+[1.681s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.681s]         ********************************************************************************
+[1.681s] 
+[1.681s] !!
+[1.681s]   self.initialize_options()
+[2.012s] running egg_info
+[2.038s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[2.038s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[2.038s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[2.038s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[2.039s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[2.103s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.104s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.136s] running build_ext
+[2.136s] Creating /home/readikole/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[2.137s] Installing turtlesim_controller script to /home/readikole/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.138s] 
+[2.138s] Installed /home/readikole/ros2_ws/build/turtlesim_catch_them_all
+[2.138s] running install_data
+[2.177s] Invoked command in '/home/readikole/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/readikole/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/readikole/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/readikole/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

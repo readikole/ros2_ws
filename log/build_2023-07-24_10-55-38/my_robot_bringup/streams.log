@@ -1,0 +1,47 @@
+[0.020s] Invoking command in '/home/readikole/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake /home/readikole/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/readikole/ros2_ws/install/my_robot_bringup
+[0.108s] -- The C compiler identification is GNU 11.3.0
+[0.169s] -- The CXX compiler identification is GNU 11.3.0
+[0.181s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.259s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.084s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.170s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.223s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.380s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.381s] -- Added test 'lint_cmake' to check CMake code style
+[1.382s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.384s] -- Added test 'xmllint' to check XML markup files
+[1.387s] -- Configuring done (1.3s)
+[1.392s] -- Generating done (0.0s)
+[1.394s] -- Build files have been written to: /home/readikole/ros2_ws/build/my_robot_bringup
+[1.404s] Invoked command in '/home/readikole/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake /home/readikole/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/readikole/ros2_ws/install/my_robot_bringup
+[1.407s] Invoking command in '/home/readikole/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_robot_bringup -- -j12 -l12
+[1.467s] Invoked command in '/home/readikole/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --build /home/readikole/ros2_ws/build/my_robot_bringup -- -j12 -l12
+[1.566s] Invoking command in '/home/readikole/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --install /home/readikole/ros2_ws/build/my_robot_bringup
+[1.604s] -- Install configuration: ""
+[1.604s] -- Execute custom install script
+[1.605s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[1.609s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.612s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.616s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.619s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.622s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.625s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.629s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.631s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.634s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.637s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.641s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.644s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.647s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.650s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.653s] -- Symlinking: /home/readikole/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.664s] Invoked command in '/home/readikole/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/readikole/ros2_ws/install/my_py_pkg:/opt/ros/humble /home/readikole/.local/bin/cmake --install /home/readikole/ros2_ws/build/my_robot_bringup
